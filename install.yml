@@ -1,0 +1,9 @@
+---
+
+- hosts: node03, node04
+  roles:
+    - epel
+    - nginx
+    - php
+    - mysql
+    - wordpress
